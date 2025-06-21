@@ -1,13 +1,14 @@
 # Diff-BAM: A Generalized Adaptive Diffusion Model for Cultural Heritage Image Inpaintinglatent-diffusion-inpainting
+This study makes the following contributions：
 
-This repository is based on [CompVis/latent-diffusion](https://github.com/CompVis/latent-diffusion), with modifications for classifier conditioning and architecture improvements.
+Significantly reducing the computational overhead and inference delay of diffusion model by dynamically adjusting the computational path of denoising process.
 
-通过动态调整去噪过程的计算路径，显著降低扩散模型的计算开销与推理延迟.
+The Gaussian fuzzy fusion module is embedded in U-Net to solve the complex edge transition problem of cultural heritage images.
 
-在U-Net中嵌入高斯模糊融合模块，解决文化遗产图像复杂的边缘过渡问题.
-
+We created a large-scale dataset of Thang_ka.
 ## Dataset
-本研究的核心数据来源于我们精心构建的大规模高质量唐卡图像数据集.部分图片如下图所示：
+The core data for this study comes from our carefully constructed large-scale, high-quality Thang_ka image dataset, download link below:
+[https://huggingface.co/datasets/zheng1/Thang_ka]
 
 
 #### 1. Train
