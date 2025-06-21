@@ -11,5 +11,4 @@ The core data for this study comes from our carefully constructed large-scale, h
 [https://huggingface.co/datasets/zheng1/Thang_ka]
 
 ## Inference
-Please refer to those inference notebook.
 python inpaint.py --indir Tang_ga/test --outdir outputs/result
