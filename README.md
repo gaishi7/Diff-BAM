@@ -1,4 +1,4 @@
-# Diff-BAM: A Generalized Adaptive Diffusion Model for Cultural Heritage Image Inpaintinglatent-diffusion-inpainting
+# Diff-BAM: A Generalized Adaptive Diffusion Model for Cultural Heritage Image Inpainting
 This study makes the following contributions：
 
 Significantly reducing the computational overhead and inference delay of diffusion model by dynamically adjusting the computational path of denoising process.
