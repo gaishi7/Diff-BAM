@@ -10,5 +10,3 @@ We created a large-scale dataset of Thang_ka.
 The core data for this study comes from our carefully constructed large-scale, high-quality Thang_ka image dataset, download link below:
 [https://huggingface.co/datasets/zheng1/Thang_ka]
 
-## Inference
-python inpaint.py --indir Tang_ga/test --outdir outputs/result
